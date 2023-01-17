@@ -1,13 +1,63 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+.react-logo {
+  width: 40px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-content,
+.nav {
+  padding: 20px;
+}
+
+.nav,
+.left-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav {
+  background-color: #21222a;
+}
+
+.left-head {
+  margin-right: auto;
+}
+
+.left-head > h3 {
+  color: #61dbfb;
+  font-weight: 700;
+  margin-left: 10px;
+  font-size: 22px;
+}
+
+.nav h4 {
+  color: #deebf8;
+  font-weight: 600;
+}
+
+.main-content {
+  background: url(components/reactjs-icon2.png) no-repeat right center #282d35;
+  min-height: 680px;
+}
+
+h1 {
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+ul {
+  max-width: 400px;
+}
+
+ul > li {
+  line-height: 30px;
+  padding-block: 10px;
+}
+ul > li::marker {
+  color: #61dbfb;
+  font-size: 1.4rem;
 }
